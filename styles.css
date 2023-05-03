@@ -1,0 +1,43 @@
+body{
+    background: #BDBDBD;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: whitesmoke;
+    padding: 10px;
+    display: flex;
+}
+header h1{
+    margin: 0;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+div.post img{
+    width: 100%;
+}
+.upper{
+    display: block;
+}
+.post-title{
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.post-id{
+    float: right;
+    color: gray;
+    margin-right: 10px;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
